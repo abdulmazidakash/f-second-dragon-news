@@ -5,9 +5,7 @@ const NewsCard = (props = {}) => {
 
 	const { news } = props || {};
     return (
-        <div className=" bg-gradient-to-t from-teal
-		
-		300 to-rose-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-2">
+        <div className=" bg-gradient-to-t from-teal-300 to-rose-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-2">
             <div className="flex items-center p-4">
                 <img
                     className="w-12 h-12 rounded-full"
